@@ -52,5 +52,7 @@ public class TestEmployee {
         for (Employee e : employees) {
             System.out.println(e);
         }
+        System.out.println(employees[2].compareTo(employees[3]));
+        System.out.println(employees[3].compareTo(employees[2]));
     }
 }
